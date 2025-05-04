@@ -1,0 +1,11 @@
+/* Custom styles for input masks and validation */
+input:invalid {
+    border-color: #f87171;
+}
+input:valid {
+    border-color: #34d399;
+}
+.disabled-input {
+    background-color: #f3f4f6;
+    cursor: not-allowed;
+}
